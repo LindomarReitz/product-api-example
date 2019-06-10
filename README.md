@@ -31,7 +31,7 @@ pact-verifier --provider-base-url http://<product_endpoint> --pact-url http://<p
 
 Run pact-provider for a specific version:
 
-```bash
+```
 pact-verifier --provider-base-url http://<product_endpoint> --pact-url http://<pact_broker_url>/pacts/provider/Product/consumer/Checkout/version/<version>
 ```
 
