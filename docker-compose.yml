@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  product_api:
+    image: python
+    ports:
+      - 8082:8082
+    volumes: 
+      - .:/src
+    working_dir: /src
+    command: tail -f /dev/null  
