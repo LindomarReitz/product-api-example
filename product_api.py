@@ -12,7 +12,7 @@ def users():
 def get_by_id(productId):
     for product in data:
         if int(productId) == product['id']:
-            return product
+            return json.dumps(product)
 
     response.status = 404
     response.content_type = 'application/json'
