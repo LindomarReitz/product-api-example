@@ -1,8 +1,8 @@
 # product-api-example
 
-Change the env `PACT_BROKER_URL`. If you want to use [PactFlow](https://pactflow.io/) change the env `PACT_BROKER_TOKEN`.
-
 ![Main workflow](https://github.com/LindomarReitz/product-api-example/workflows/Main%20workflow/badge.svg)
+
+Change the env `PACT_BROKER_URL`. If you want to use [PactFlow](https://pactflow.io/) change the env `PACT_BROKER_TOKEN`.
 
 Run using docker-compose:
 
